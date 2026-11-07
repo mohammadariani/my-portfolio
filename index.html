@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kian Ariani Asl — Remote Customer & IT Support</title>
+<meta name="description" content="Nearly 4 years of customer and IT support experience. Remote, project-based email and ticket support.">
+<style>
+:root{--bg:#f4efe6;--fg:#111;--card:#fff;--y:#ffd23f;--p:#ff6b9d;--bl:#4d7cff;--g:#3ddc97;--sh:#111;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15131a;--fg:#f4efe6;--card:#221f2b;--sh:#f4efe6}}
+:root[data-theme="dark"]{--bg:#15131a;--fg:#f4efe6;--card:#221f2b;--sh:#f4efe6}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 "Trebuchet MS",system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden;background-image:radial-gradient(var(--fg) 1px,transparent 1px);background-size:26px 26px;background-position:0 0}
+body::before{content:"";position:fixed;inset:0;background:var(--bg);opacity:.93;z-index:-1}
+a{color:inherit;text-decoration:none}
+.hd{font-family:Impact,"Arial Black",system-ui,sans-serif;letter-spacing:.01em;text-transform:uppercase;line-height:.95}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;justify-content:space-between;align-items:center;padding:12px 5vw;background:var(--bg);border-bottom:3px solid var(--fg)}
+.logo{font-size:28px;display:flex;gap:2px}.logo span{display:inline-block;animation:hop 2.4s infinite}.logo span:nth-child(2){animation-delay:.1s}.logo span:nth-child(3){animation-delay:.2s}.logo span:nth-child(4){animation-delay:.3s}
+@keyframes hop{0%,30%,100%{transform:none}15%{transform:translateY(-8px) rotate(-8deg)}}
+nav div a{margin-left:18px;font-weight:700;font-size:15px;padding:4px 8px;border-radius:8px}nav div a:hover{background:var(--y);color:#111}
+@media(max-width:640px){nav div a:not(:last-child){display:none}}
+section{padding:90px 5vw 20px;max-width:1140px;margin:auto}
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;padding-top:60px}
+@media(max-width:860px){.hero{grid-template-columns:1fr}}
+.chip{display:inline-block;background:var(--g);color:#111;border:3px solid var(--fg);padding:5px 14px;border-radius:99px;font-weight:800;font-size:14px;box-shadow:4px 4px 0 var(--sh);transform:rotate(-2deg)}
+.chip b{display:inline-block;width:10px;height:10px;border-radius:50%;background:#111;margin-right:8px;animation:bl 1s steps(2) infinite}
+@keyframes bl{50%{opacity:.15}}
+h1{font-size:clamp(54px,11vw,128px);margin:22px 0}
+h1 .w{display:inline-block;transition:transform .3s}h1 .w:hover{transform:rotate(-4deg) scale(1.06)}
+.hl{background:var(--y);color:#111;padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone;position:relative;display:inline-block;transform:rotate(-1.5deg)}
+.hl2{background:var(--p);color:#111;padding:0 .12em;display:inline-block;transform:rotate(1.2deg)}
+.lead{max-width:600px;font-size:19px}
+.btns{display:flex;gap:16px;margin-top:28px;flex-wrap:wrap}
+.btn{display:inline-block;font-weight:800;padding:14px 26px;border:3px solid var(--fg);border-radius:14px;background:var(--card);box-shadow:6px 6px 0 var(--sh);transition:transform .12s,box-shadow .12s;cursor:pointer;font-size:17px;font-family:inherit;color:var(--fg)}
+.btn.y{background:var(--y);color:#111}
+.btn:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--sh)}.btn:active{transform:translate(4px,4px);box-shadow:2px 2px 0 var(--sh)}
+.badge{position:relative;width:min(300px,70vw);aspect-ratio:1;margin:auto}
+.badge svg{position:absolute;inset:0;animation:spin 14s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.badge .c{position:absolute;inset:18%;border-radius:50%;background:var(--bl);border:4px solid var(--fg);box-shadow:8px 8px 0 var(--sh);display:grid;place-items:center;font-size:clamp(54px,12vw,86px);animation:wob 3s ease-in-out infinite}
+@keyframes wob{50%{transform:rotate(10deg) scale(1.06)}}
+.st{position:absolute;font-size:34px;animation:fl 5s ease-in-out infinite}
+.st:nth-of-type(1){top:0;left:0}.st:nth-of-type(2){top:10%;right:0;animation-delay:-1.5s}.st:nth-of-type(3){bottom:4%;left:6%;animation-delay:-3s}
+@keyframes fl{50%{transform:translateY(-14px) rotate(14deg)}}
+.stats{display:flex;gap:16px;margin-top:34px;flex-wrap:wrap}
+.stat{border:3px solid var(--fg);border-radius:14px;padding:10px 18px;background:var(--card);box-shadow:5px 5px 0 var(--sh)}.stat b{font-size:34px;display:block;font-family:Impact,"Arial Black",sans-serif}.stat span{font-size:13px;opacity:.7}
+.strip{margin:70px 0 0;background:var(--fg);color:var(--bg);transform:rotate(-1.6deg);overflow:hidden;padding:14px 0;border-block:3px solid var(--fg);width:104vw;margin-left:-2vw}
+.strip div{display:flex;width:max-content;gap:36px;animation:mq 26s linear infinite;font-size:26px}
+.strip span::after{content:" ✱";color:var(--y);margin-left:36px}
+@keyframes mq{to{transform:translateX(-50%)}}
+h2{font-size:clamp(38px,7vw,70px);margin-bottom:14px}
+.sub{max-width:660px;margin-bottom:34px;opacity:.85}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{background:var(--card);border:3px solid var(--fg);border-radius:20px;padding:26px;box-shadow:7px 7px 0 var(--sh);transition:transform .15s,box-shadow .15s}
+.card:nth-child(4n+1){--c:var(--y)}.card:nth-child(4n+2){--c:var(--p)}.card:nth-child(4n+3){--c:var(--g)}.card:nth-child(4n+4){--c:var(--bl)}
+.card:hover{transform:translate(-4px,-4px) rotate(-1deg);box-shadow:12px 12px 0 var(--sh)}
+.ico{width:58px;height:58px;display:grid;place-items:center;font-size:28px;background:var(--c);border:3px solid var(--fg);border-radius:16px;margin-bottom:14px;transition:transform .4s}
+.card:hover .ico{transform:rotate(360deg) scale(1.15)}
+.card h3{font-size:21px;margin-bottom:6px}.card p{font-size:15px;opacity:.85}
+.rv{opacity:0;transform:translateY(50px) rotate(1.5deg);transition:opacity .6s,transform .6s cubic-bezier(.2,1.3,.4,1)}.rv.in{opacity:1;transform:none}
+.mail{display:grid;grid-template-columns:300px 1fr;border:3px solid var(--fg);border-radius:22px;overflow:hidden;box-shadow:9px 9px 0 var(--sh);background:var(--card);min-height:430px}
+@media(max-width:780px){.mail{grid-template-columns:1fr}}
+.list{border-right:3px solid var(--fg)}@media(max-width:780px){.list{border-right:0;border-bottom:3px solid var(--fg)}}
+.it{display:block;width:100%;text-align:left;padding:14px 16px;border:0;border-bottom:2px solid var(--fg);background:transparent;color:var(--fg);font:inherit;cursor:pointer;transition:.15s;position:relative}
+.it:hover{background:var(--y);color:#111;padding-left:24px}.it.on{background:var(--p);color:#111}
+.it small{display:block;font-size:12px;opacity:.7;margin-top:2px}
+.it b{font-size:15px}
+.view{padding:26px;position:relative}
+.q{background:var(--bg);border:3px solid var(--fg);border-radius:16px 16px 16px 2px;padding:14px 18px;font-weight:700;max-width:520px}
+.a{margin-top:18px;border:3px solid var(--fg);border-radius:16px 16px 2px 16px;padding:18px;background:var(--g);color:#111;font-size:15px;white-space:pre-line;min-height:150px;margin-left:auto;max-width:620px}
+.stamp{position:absolute;right:24px;top:24px;border:5px solid #e0245e;color:#e0245e;font-family:Impact,sans-serif;font-size:30px;padding:2px 14px;border-radius:10px;transform:rotate(14deg) scale(3);opacity:0;pointer-events:none;background:rgba(255,255,255,.7)}
+.stamp.go{animation:slam .45s cubic-bezier(.2,1.2,.4,1) forwards}
+@keyframes slam{to{transform:rotate(14deg) scale(1);opacity:1}}
+.note{font-size:13px;margin-top:16px;opacity:.75}
+.steps{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));position:relative;margin-top:50px}
+.prog{height:14px;border:3px solid var(--fg);border-radius:99px;background:var(--card);overflow:hidden;box-shadow:4px 4px 0 var(--sh)}
+.prog i{display:block;height:100%;width:0;background:repeating-linear-gradient(45deg,var(--y) 0 12px,var(--p) 12px 24px);transition:width 1.6s cubic-bezier(.3,1,.4,1)}
+.step{border:3px solid var(--fg);border-radius:18px;padding:20px;background:var(--card);box-shadow:5px 5px 0 var(--sh);transition:transform .2s}
+.step:nth-child(odd){transform:rotate(-1.2deg)}.step:nth-child(even){transform:rotate(1.2deg) translateY(10px)}.step:hover{transform:rotate(0) translateY(-8px)}
+.step em{font-style:normal;display:inline-grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--bl);color:#fff;border:3px solid var(--fg);font-family:Impact,sans-serif;font-size:20px;margin-bottom:8px}
+.step h3{font-size:20px}.step p{font-size:14px;opacity:.85}
+.tags{display:flex;flex-wrap:wrap;gap:12px}
+.tags span{padding:9px 18px;border:3px solid var(--fg);border-radius:99px;font-weight:800;background:var(--c,var(--card));color:#111;box-shadow:4px 4px 0 var(--sh);transition:transform .2s;cursor:default}
+.tags span:hover{transform:translateY(-6px) rotate(-3deg)}
+.cta{margin-top:30px;text-align:center;background:var(--y);color:#111;border:4px solid var(--fg);border-radius:30px;padding:70px 6vw;box-shadow:12px 12px 0 var(--sh);position:relative;overflow:hidden}
+.cta p{max-width:560px;margin:14px auto 28px}
+.cta .btn{background:#111;color:#fff;box-shadow:6px 6px 0 var(--p)}
+.conf{position:absolute;font-size:30px;pointer-events:none;animation:fall 5s linear infinite}
+@keyframes fall{from{transform:translateY(-60px) rotate(0)}to{transform:translateY(440px) rotate(360deg)}}
+.cta>*:not(.conf){position:relative}
+.cf{max-width:600px;margin:0 auto;display:grid;gap:14px;text-align:left}
+.cf .row{display:grid;gap:14px;grid-template-columns:1fr 1fr}@media(max-width:600px){.cf .row{grid-template-columns:1fr}}
+.cf input,.cf textarea{width:100%;font:inherit;font-size:16px;color:#111;background:#fff;border:3px solid #111;border-radius:14px;padding:13px 16px;box-shadow:4px 4px 0 #111;transition:transform .12s,box-shadow .12s;outline:0;resize:vertical}
+.cf input:focus,.cf textarea:focus{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--p)}
+.cf .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.cf .btn{justify-self:center}.cf .btn[disabled]{opacity:.6;cursor:wait}
+.cta .fs{margin:6px 0 0;font-weight:800;text-align:center;min-height:1.6em;max-width:none}
+footer{text-align:center;padding:50px 5vw;font-size:14px;opacity:.75}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.stamp{opacity:1;transform:rotate(14deg)}}
+</style>
+</head>
+<body>
+<nav><a class="logo hd" href="#top"><span>K</span><span>I</span><span>A</span><span>N</span>.</a><div><a href="#services">Services</a><a href="#work">Sample Work</a><a href="#process">How I Work</a><a href="#contact">Contact</a></div></nav>
+
+<section class="hero" id="top">
+<div>
+<span class="chip"><b></b>Open for projects</span>
+<h1 class="hd"><span class="w">Clear</span> <span class="hl">answers.</span><br><span class="hl2">Resolved</span> <span class="w">issues.</span></h1>
+<p class="lead">Nearly 4 years of professional customer and IT support experience, focused on remote, project-based Email and Ticket Support for SaaS, e-commerce, digital services, and online businesses.</p>
+<div class="btns"><a class="btn y" href="#work">View sample work</a><a class="btn" href="#contact">Let's work together</a></div>
+<div class="stats"><div class="stat"><b data-n="4" data-s="+">0</b><span>years in support</span></div><div class="stat"><b data-n="5" data-s="">0</b><span>sample cases</span></div><div class="stat"><b>Remote</b><span>email &amp; ticket</span></div></div>
+</div>
+<div class="badge"><span class="st">🎫</span><span class="st">⭐</span><span class="st">💬</span>
+<svg viewBox="0 0 200 200"><defs><path id="cp" d="M100,100 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/></defs><text font-size="15.5" font-weight="800" letter-spacing="2" fill="currentColor" font-family="Trebuchet MS,sans-serif"><textPath href="#cp">REMOTE SUPPORT ✱ EMAIL ✱ TICKETS ✱ CUSTOMER &amp; IT ✱ </textPath></text></svg>
+<div class="c">🎧</div></div>
+</section>
+
+<div class="strip hd"><div id="strip"></div></div>
+
+<section id="about"><div class="rv"><h2 class="hd">About</h2><p class="sub">I'm Kian Ariani Asl, a customer and IT support professional with nearly 4 years of professional experience. My background includes troubleshooting technical issues, handling customer requests, communicating practical solutions, and following support issues through to the appropriate next step. I'm currently focused on remote, project-based Email and Ticket Support for SaaS platforms, e-commerce businesses, digital services, and online products.</p></div></section>
+
+<section id="services"><div class="rv"><h2 class="hd">What I can help with</h2><p class="sub">Practical support that combines clear communication, technical troubleshooting, organized follow-up, and reliable documentation.</p></div>
+<div class="grid">
+<div class="card rv"><div class="ico">✉️</div><h3>Customer Email Support</h3><p>Clear, professional replies to customer questions, requests, complaints, and common account issues.</p></div>
+<div class="card rv"><div class="ico">🎫</div><h3>Ticket Handling</h3><p>Organizing incoming requests, identifying priorities, following up, and keeping conversations from being missed.</p></div>
+<div class="card rv"><div class="ico">🛠️</div><h3>Technical Troubleshooting</h3><p>Working through common software, access, account, and technical issues using a structured troubleshooting approach.</p></div>
+<div class="card rv"><div class="ico">🔐</div><h3>Account &amp; Access Issues</h3><p>Helping users with common login, access, verification, and account-related support requests.</p></div>
+<div class="card rv"><div class="ico">🚀</div><h3>Escalation &amp; Follow-up</h3><p>Collecting the relevant details before escalation and keeping the customer informed about the next step.</p></div>
+<div class="card rv"><div class="ico">📚</div><h3>FAQ &amp; Knowledge Base Support</h3><p>Identifying recurring questions and helping turn repeated support answers into clearer documentation.</p></div>
+</div></section>
+
+<section id="work"><div class="rv"><h2 class="hd">Sample Support Cases</h2><p class="sub">An inbox you can actually click. Open a ticket and watch it get solved.</p></div>
+<div class="mail rv"><div class="list" id="list"></div><div class="view"><div class="stamp hd" id="stamp">Resolved ✓</div><div class="q" id="q"></div><div class="a" id="a"></div></div></div>
+<p class="note">These are demonstration interactions created to show my communication and problem-solving approach. They are not presented as support tickets from a specific client.</p></section>
+
+<section id="process"><div class="rv"><h2 class="hd">How I work</h2><p class="sub">A simple support workflow designed to keep customer communication clear and issues moving toward resolution.</p></div>
+<div class="prog rv"><i id="prog"></i></div>
+<div class="steps">
+<div class="step rv"><em>1</em><h3>Triage</h3><p>Understand the request, urgency, and information already available.</p></div>
+<div class="step rv"><em>2</em><h3>Investigate</h3><p>Review the issue, reproduce where possible, and check available documentation.</p></div>
+<div class="step rv"><em>3</em><h3>Resolve</h3><p>Give the customer a clear, practical answer or the next required steps.</p></div>
+<div class="step rv"><em>4</em><h3>Escalate</h3><p>When needed, provide the relevant context and technical details to the appropriate team.</p></div>
+<div class="step rv"><em>5</em><h3>Follow up</h3><p>Keep the conversation organized and make sure the customer knows what happens next.</p></div></div></section>
+
+<section id="skills"><div class="rv"><h2 class="hd">Skills &amp; Work Environment</h2><p class="sub">The focus is on transferable support skills and a reliable remote workflow rather than claiming experience with tools I haven't used directly.</p></div>
+<div class="tags rv" id="tags"></div></section>
+
+<section id="contact"><div class="cta rv" id="cta"><h2 class="hd">Need help with your support inbox?</h2>
+<p>I'm available for small paid trial projects as well as ongoing project-based Email and Ticket Support. If you have a support queue that needs attention, let's discuss the scope.</p>
+<form class="cf" id="cf">
+<input type="hidden" name="access_key" value="780065b2-6157-4251-b3d3-48fb7f05cd03">
+<input type="hidden" name="subject" value="New support project inquiry — kianariani.site">
+<input type="hidden" name="from_name" value="kianariani.site">
+<input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
+<div class="row"><input name="name" placeholder="Your name" required><input type="email" name="email" placeholder="Your email" required></div>
+<textarea name="message" rows="4" placeholder="Tell me about your support queue..." required></textarea>
+<button class="btn" type="submit" id="sb">Send message →</button>
+<p class="fs" id="fs" aria-live="polite"></p>
+</form></div></section>
+<footer>© 2026 Kian Ariani Asl · Remote Customer &amp; IT Support Specialist</footer>
+
+<script>
+const $=s=>document.querySelector(s),z=ms=>new Promise(r=>setTimeout(r,ms));
+const words=['Email Support','Ticket Handling','Troubleshooting','Escalation','Follow-up','Knowledge Base'];
+$('#strip').innerHTML=[...words,...words,...words,...words].map(w=>'<span>'+w+'</span>').join('');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(i%3)*.07+'s';io.observe(el)});
+document.querySelectorAll('[data-n]').forEach(el=>{const n=+el.dataset.n;let c=0;const id=setInterval(()=>{c++;if(c>=n)clearInterval(id);el.textContent=c+el.dataset.s},200)});
+new IntersectionObserver((es,o)=>{if(es[0].isIntersecting){$('#prog').style.width='100%';o.disconnect()}}).observe($('.prog'));
+const cols=['#ffd23f','#ff6b9d','#3ddc97','#4d7cff'];
+const sk=['Customer Email Support','Ticket Handling','Technical Troubleshooting','Customer Communication','Account & Access Support','Escalation & Follow-up','Knowledge Base Support','B2B / SaaS Support','Remote Work','Google Workspace','Microsoft 365'];
+$('#tags').innerHTML=sk.map((s,i)=>`<span style="--c:${cols[i%4]}">${s.replace('&','&amp;')}</span>`).join('');
+const cta=$('#cta');['🎉','⭐','✨','🎫','💬','🎧'].forEach((e,i)=>{const s=document.createElement('span');s.className='conf';s.textContent=e;s.style.left=(8+i*17)+'%';s.style.animationDelay=(-i*0.9)+'s';cta.append(s)});
+const cases=[
+['Login Problem',"I can't log in to my account. I reset my password but I'm still getting an error.","Hi Alex,\n\nSorry you're having trouble logging in. I'll first confirm the account and check the relevant login/reset steps. Please make sure you're using the official login page and the latest password-reset link. If the error continues, please send me the exact error message (without sharing your password) and, if possible, a screenshot with any sensitive information hidden.\n\nI'll use those details to narrow down the cause and guide you through the next step.\n\nBest,\nKian"],
+['Cancellation Request',"I don't want to continue my subscription. Please cancel it.","Hi Alex,\n\nAbsolutely. I'll help you with the cancellation process. I'll first verify the account and the applicable billing terms, then confirm what happens to your access and whether any further charge is scheduled.\n\nIf the cancellation requires an action from the account owner, I'll provide the exact steps and make the process as straightforward as possible.\n\nBest,\nKian"],
+['Frustrated Customer',"I've contacted support twice and nobody has solved this. This is getting ridiculous.","Hi Alex,\n\nI'm sorry you've had to follow up more than once. I understand how frustrating that can be.\n\nI'll review the information already provided so you don't have to repeat everything. I'll then identify the next actionable step, and if the issue needs another team, I'll make sure the relevant technical details and context are included with the escalation.\n\nI'll also keep you updated on the next step rather than leaving you waiting without context.\n\nBest,\nKian"],
+['Payment Issue',"I was charged, but my account still shows the old plan. Can you help?","Hi Alex,\n\nI can help you investigate this. I'll first check the available account and billing details to understand whether the payment was completed and whether the subscription status has updated correctly.\n\nIf the payment needs to be reviewed by the billing team, I'll include the relevant transaction details and account context with the escalation. Please don't send your full card number or other sensitive payment information.\n\nBest,\nKian"],
+['Refund Request',"I'd like to request a refund for my recent purchase.","Hi Alex,\n\nThanks for reaching out. I'll first check the applicable refund policy and the details of the purchase so I can explain the available options clearly.\n\nIf the request requires approval or action from another team, I'll make sure the relevant information is included and explain what happens next.\n\nBest,\nKian"]];
+let tok=0;const list=$('#list');
+cases.forEach((c,i)=>{const b=document.createElement('button');b.className='it';b.innerHTML=`<b>0${i+1} · ${c[0]}</b><small>from: alex@customer.com</small>`;b.onclick=()=>open(i);list.append(b)});
+async function open(i){const my=++tok;[...list.children].forEach((b,j)=>b.classList.toggle('on',j==i));
+const st=$('#stamp');st.classList.remove('go');void st.offsetWidth;$('#q').textContent=cases[i][1];const a=$('#a');a.textContent='';
+const t=cases[i][2];for(let k=0;k<t.length;k+=3){if(my!=tok)return;a.textContent=t.slice(0,k+3);await z(12)}
+if(my==tok){a.textContent=t;st.classList.add('go')}}
+open(0);
+// contact form -> Web3Forms (paste your access key in the hidden input above)
+$('#cf').addEventListener('submit',async e=>{e.preventDefault();const f=e.target,s=$('#fs'),b=$('#sb');
+if(f.access_key.value.startsWith('YOUR_')){s.textContent='⚠️ Add your Web3Forms access key first.';return}
+b.disabled=true;b.textContent='Sending…';s.textContent='';
+try{const r=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f)))});const j=await r.json();
+if(j.success){s.textContent='✅ Sent! I will reply by email soon.';f.reset();b.textContent='Sent ✓'}else throw 0}
+catch(_){s.textContent='❌ Could not send. Please email contact@kianariani.site directly.';b.textContent='Send message →'}
+finally{b.disabled=false}});
+</script>
+</body>
+</html>
